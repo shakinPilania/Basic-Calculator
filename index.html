@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"   href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckFZqCUUdOJivTMjTcYBvx9LWLP1pzJguGj89jx6CQQ&s=10">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="top"><span>CALCULATOR</span></div>
+            <div class="main">
+                <div class="screen" >
+                    <div class=".screen_top" style="height: 20px; margin-bottom: 8px;"></div>
+                    <input type="text " readonly  placeholder="0">
+                </div>
+                <div class="break" ></div>
+                <div class="keypad">
+                    <!-- //! 1st row  -->
+                    <div class="component">
+                        
+                        <button class="function" onclick="clearing()" >AC</button>
+                        <button class="function" onclick="changeSign(event)" value="+/-">+/-</button>
+                        <button class="function" value="%" onclick="clickMe(event); changeSign(event)">%</button>
+                        <button class="operator" value="÷" onclick="clickMe(event)" >÷</button>
+                    </div>
+                    <!-- ! second row  -->
+                    <div class="component">
+                        
+                        <button value="7" class="digit" onclick="clickMe(event)" >7</button>
+                        <button value="8" class="digit" onclick="clickMe(event)" >8</button>
+                        <button value="9" class="digit" onclick="clickMe(event)" >9</button>
+                        <button class="operator"  value="x" onclick="clickMe(event)" style="font-size: 13px;" >x</button>
+                    </div>
+                    <!--! third row  -->
+                    <div class="component">
+                        <button value="4" class="digit" onclick="clickMe(event)" >4</button>
+                        <button value="5" class="digit" onclick="clickMe(event)" >5</button>
+                        <button value="6" class="digit" onclick="clickMe(event)" >6</button>
+                        <button class="operator" value="-" onclick="clickMe(event)" >-</button>
+                    </div>
+                    <!-- ! fourth row  -->
+                    <div class="component">
+                        <button value="1" class="digit" onclick="clickMe(event)" >1</button>
+                        <button value="2" class="digit" onclick="clickMe(event)" >2</button>
+                        <button value="3" class="digit" onclick="clickMe(event)" >3</button>
+                        <button class="operator" value="+" onclick="clickMe(event)" >+</button>
+                    </div>
+                    <!-- ! last row  -->
+                    <div class="component spanning">
+                        <button value="0" class="digit" onclick="clickMe(event)" style="grid-column: 1/3" >0</button>
+                        <button value="." class="digit" onclick="clickMe(event)" >.</button>
+                        <button class="operator" onclick="calculation()" >=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--*
+     adding the script for javascript -->
+    <script src="index.js" ></script>
+</body>
+</html>
