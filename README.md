@@ -1,27 +1,24 @@
-# Basic-Calculator
-# 🧮 Basic Calculator
+# Basic Calculator
 
-A simple and responsive calculator built using **HTML, CSS, and JavaScript**. It performs basic arithmetic operations with a clean and user-friendly interface.
+A simple and responsive calculator built using HTML, CSS, and JavaScript. It performs basic arithmetic operations through a clean and user-friendly interface.
 
-## 🚀 Features
+## Features
 
-- ➕ Addition
-- ➖ Subtraction
-- ✖️ Multiplication
-- ➗ Division
-- 🧹 Clear button
-- 📱 Responsive design
-- ⚡ Fast and lightweight
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear display
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- HTML
+- CSS
+- JavaScript 
 
-## 📂 Project Structure
+## Project Structure
 
-```
+```text
 Basic-Calculator/
 │── index.html
 │── style.css
@@ -29,41 +26,32 @@ Basic-Calculator/
 └── README.md
 ```
 
-## ▶️ How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shakinPilania/Basic-Calculator.git
-   ```
+<img width="1917" height="931" alt="Calculator Screenshot" src="https://github.com/user-attachments/assets/6e2298f8-2adc-4e2c-b047-afe747a657b5" />
 
-2. Open the project folder.
+## Development Timeline
 
-3. Open `index.html` in your browser.
+- Started: 18 July 2026
+- Completed: 19 July 2026
 
-## 📸 Screenshot
+## Learning Outcomes
 
-<img width="1917" height="931" alt="image" src="https://github.com/user-attachments/assets/6e2298f8-2adc-4e2c-b047-afe747a657b5" />
+This project helped strengthen my understanding of:
 
+- JavaScript functions
+- DOM manipulation
+- CSS styling
+- Git and GitHub workflow
 
-## 📅 Development Timeline
+## Future Improvements
 
-- **Started:** 18 July 2026
-- **Completed:** 19 July 2026
+- Keyboard input support
+- Scientific calculator functions
+- Calculation history
+- Theme switcher (Light/Dark Mode)
 
-## 🎯 Learning Outcomes
-
-This project helped me practice:
-
-- JavaScript Functions
-- CSS Styling
-- Git & GitHub Workflow
-
-## 👨‍💻 Author
+## Author
 
 **Shakin Pilania**
 
 GitHub: https://github.com/shakinPilania
-
----
-
-⭐ If you found this project useful, consider giving it a star!
